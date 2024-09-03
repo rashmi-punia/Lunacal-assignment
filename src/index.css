@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .scrollbar {
+    scrollbar-color: #4b5563 #e5e7eb;
+    scrollbar-width: thick;
+  }
+
+  .box {
+background: #171717;
+box-shadow: inset 0px 4.96001px 12.4px 2.48px rgba(0, 0, 0, 0.25);
+border-radius: 23px;
+
+  }
+
+ 
+.add_image{
+  width: 131.32px;
+  height: 46px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: -0.5px -0.5px 6.9px rgba(255, 255, 255, 0.25), 9px 10px 7.1px rgba(0, 0, 0, 0.4), inset 0px 0px 48.9064px rgba(255, 255, 255, 0.05), inset 0px 3.26043px 3.26043px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(52.28px);
+  border-radius: 104px;
+}
+
+.slidebutton{
+ 
+background: linear-gradient(139.14deg, #303439 12.4%, #161718 94.96%);
+box-shadow: -5px -3px 30px -10px #96BEE7, 4px 5px 30px 5px #101213;
+
+
+}
+
+.rightBoxes{
+ 
+width: 720px;
+height: 310px;
+background: #363C43;
+box-shadow: 5.67px 5.67px 3.78px rgba(0, 0, 0, 0.4);
+border-radius: 18.8904px;
+
+}
+
+.bottomSpan{
+ 
+background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), linear-gradient(180deg, rgba(40, 40, 40, 0.1) 0%, rgba(248, 248, 248, 0.1) 100%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.33);
+backdrop-filter: blur(4.91866px);
+border-radius: 2.45933px;
+
+}
+
+
+  .text {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #969696;
+  }
+}
