@@ -5,7 +5,9 @@ import { SiWindows11 } from "react-icons/si";
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("1");
   return (
-    <div className="bg-rd1 sm:rightBoxes w-[60vw] lg:w-[720px] flex items-start gap-3 p-2">
+    <div
+      className="bg-rd1 rightBoxes w-full h-[310px] md:w-[720px] flex items-start gap-3 p-2"
+    >
       <div className="flex flex-col items-center gap-[105px] text-rd1text">
         <IoMdHelpCircleOutline className="size-8" />
         <SiWindows11 className="size-5 " />
@@ -15,7 +17,9 @@ const Tabs = () => {
           <button
             onClick={() => setActiveTab("1")}
             className={`${
-              activeTab === "1" ? "bg-rd1 rounded-[16px] shadow-custom-xl shadow-black/95" : "text-text"
+              activeTab === "1"
+                ? "bg-rd1 rounded-[16px] shadow-custom-xl shadow-black/95"
+                : "text-text"
             }  py-[10px] px-[24px] font-semibold `}
           >
             About Me
@@ -23,7 +27,9 @@ const Tabs = () => {
           <button
             onClick={() => setActiveTab("2")}
             className={`${
-              activeTab === "2" ? "bg-rd1 rounded-[16px] shadow-custom-xl shadow-black/95 " : "text-text"
+              activeTab === "2"
+                ? "bg-rd1 rounded-[16px] shadow-custom-xl shadow-black/95 "
+                : "text-text"
             }  py-[10px] px-[24px] font-semibold `}
           >
             Experiences
@@ -31,7 +37,9 @@ const Tabs = () => {
           <button
             onClick={() => setActiveTab("3")}
             className={`${
-              activeTab === "3" ? "bg-rd1 rounded-[16px] shadow-custom-xl shadow-black/95 " : "text-text"
+              activeTab === "3"
+                ? "bg-rd1 rounded-[16px] shadow-custom-xl shadow-black/95 "
+                : "text-text"
             }  py-[10px] px-[24px] font-semibold`}
           >
             Recommended{" "}
@@ -42,27 +50,23 @@ const Tabs = () => {
             <p className="">
               Hello! I’m Dave, your sales rep here from Salesforce. I’ve been
               working at this awesome company for 3 years now.
-              <br/>
-              <br/>
-               I was born and
-              raised in Albany, NY& have been living in Santa Carla for the past
-              10 years my wife Tiffany and my 4 year old twin daughters- Emma
-              and Ella. Both of them are just starting school, so my calender is
-              usually blocked between 9-10 AM. This is a
-              raised in Albany, NY& have been living in Santa Carla for the past
-              10 years my wife Tiffany and my 4 year old twin daughters- Emma
-              and Ella. Both of them are just starting school, so my calender is
-              usually blocked between 9-10 AM.
-
+              <br />
+              <br />I was born and raised in Albany, NY& have been living in
+              Santa Carla for the past 10 years my wife Tiffany and my 4 year
+              old twin daughters- Emma and Ella. Both of them are just starting
+              school, so my calender is usually blocked between 9-10 AM. This is
+              a raised in Albany, NY& have been living in Santa Carla for the
+              past 10 years my wife Tiffany and my 4 year old twin daughters-
+              Emma and Ella. Both of them are just starting school, so my
+              calender is usually blocked between 9-10 AM.
             </p>
           )}
           {activeTab === "2" && (
             <p className="">
-              I was born and
-              raised in Albany, NY& have been living in Santa Carla for the past
-              10 years my wife Tiffany and my 4 year old twin daughters- Emma
-              and Ella. Both of them are just starting school, so my calender is
-              usually blocked between 9-10 AM. This is a...
+              I was born and raised in Albany, NY& have been living in Santa
+              Carla for the past 10 years my wife Tiffany and my 4 year old twin
+              daughters- Emma and Ella. Both of them are just starting school,
+              so my calender is usually blocked between 9-10 AM. This is a...
             </p>
           )}
           {activeTab === "3" && (
@@ -71,7 +75,6 @@ const Tabs = () => {
               working at this awesome company for 3 years now.
             </p>
           )}
-
         </div>
       </div>
     </div>

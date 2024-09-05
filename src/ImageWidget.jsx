@@ -32,7 +32,7 @@ const ImageWidget = () => {
   }
 
   return (
-    <div className="rightBoxes w-[60vw] lg:w-[720px] flex items-start gap-3 p-2">
+    <div className="rightBoxes w-full md:w-[720px] flex items-start gap-3 p-2">
       <div className="flex flex-col items-center gap-[105px] text-rd1text">
         <IoMdHelpCircleOutline className="size-8" />
         <SiWindows11 className="size-5 " />
