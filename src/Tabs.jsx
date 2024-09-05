@@ -5,7 +5,7 @@ import { SiWindows11 } from "react-icons/si";
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("1");
   return (
-    <div className="bg-rd1 sm:rightBoxes flex items-start gap-3 p-2">
+    <div className="bg-rd1 sm:rightBoxes w-[60vw] lg:w-[720px] flex items-start gap-3 p-2">
       <div className="flex flex-col items-center gap-[105px] text-rd1text">
         <IoMdHelpCircleOutline className="size-8" />
         <SiWindows11 className="size-5 " />
@@ -37,7 +37,7 @@ const Tabs = () => {
             Recommended{" "}
           </button>
         </div>
-        <div className=" h-[175px] pt-5 text whitespace-pre-wrap overflow-y-scroll pr-3">
+        <div className=" h-[175px] pt-5 text text-wrap whitespace-pre-wrap overflow-y-scroll pr-3">
           {activeTab === "1" && (
             <p className="">
               Hello! I’m Dave, your sales rep here from Salesforce. I’ve been

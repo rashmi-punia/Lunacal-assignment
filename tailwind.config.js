@@ -13,7 +13,7 @@ export default {
         blackG: "#171717",
       },
       boxShadow: {
-        "custom-xl": "0 23px 40px  rgba(0, 0, 0, 0.5)", // Adjust values as needed
+        "custom-xl": "0 23px 40px  rgba(0, 0, 0, 0.5)",
       },
     },
   },
